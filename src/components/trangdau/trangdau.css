@@ -1,0 +1,93 @@
+.background_login {
+    background-image: url(./anhnen.png);
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+#loginform{
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: #d3cfcf;
+    border-radius: 25px;
+  }
+  
+  #headerTitle{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding-top: 5vh;
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .lrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    max-width: 100%;
+    
+  }
+  
+  .lrow input{
+    width: 80%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+    transition: box-shadow 0.2s ease-in;
+    border-radius: 5px;
+  }
+  
+  .lrow input:focus{
+     box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+     outline: none;
+  }
+  
+  .lrow input::-webkit-input-placeholder{
+    opacity: 1;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .lrow input:hover::-webkit-input-placeholder,
+  .lrow input:focus::-webkit-input-placeholder{
+    opacity: 0;
+  }
+  
+  .lrow label{
+    align-self: start;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    color: rgba(2, 2, 2, 0.9);
+  }
+  
+  .lrow button{
+    border-radius: 25px;
+    width: 80%;
+    height: 40px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .lrow button:hover{
+    opacity: 0.8;
+  }
+  
+  #button{
+    padding-bottom: 1.5rem;
+  }
+
+  #error {
+    font-family: 'Karla', sans-serif;
+  }

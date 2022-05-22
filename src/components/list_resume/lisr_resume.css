@@ -1,0 +1,96 @@
+#list_people {
+    border: solid 1px #29b941;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 3vh;
+    
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.listResume {
+    padding-top: 1vh;
+}
+
+#list_people thead tr {
+    background-color: #23ac90;
+    color: #ffffff;
+    text-align: left;
+    text-align: center;
+}
+
+#list_people th, #list_people td {
+    padding: 3px 5px;
+}
+
+#list_people tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#list_people tbody td {
+    border: 1px solid #dddddd;
+}
+
+#list_people tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#list_people tbody tr:nth-of-type(odd) {
+    background-color:  rgba(255, 255, 255, 0.5) ;
+}
+
+#list_people tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.ppname {
+    width: 13vw;
+}
+
+tbody .ppname {
+    text-align: left;
+    padding: 2px;
+}
+
+.ppcccd {
+    width: 8vw;
+}
+
+.ppgender {
+    width: 7vw;
+}
+
+.ppaddress {
+    width: 18vw;
+}
+
+.ppreligion {
+    width: 5vw;
+}
+
+.clickList {
+    color: #282c29;
+    font-weight: bold;
+    background: rgb(61, 172, 173);
+    background: linear-gradient(90deg, rgb(54, 180, 182) 0%,     rgb(223, 220, 84)100%);
+    border: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    #list_people {
+        font-size: 13px;
+    }
+    .ppgender {
+        width: 8vw;
+    }
+    .ppreligion {
+        width: 8vw;
+    }
+    .ppaddress {
+        width: 20vw;
+    }
+}

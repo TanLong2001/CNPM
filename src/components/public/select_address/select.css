@@ -1,0 +1,53 @@
+.luachon1 {
+    border-radius: 5px;
+    height: 4vh;
+    padding-left: 0.5vw;
+    margin-left: 1vw;
+    background-color: white;
+}
+
+#huyen {
+    width: 12vw;
+}
+
+#xa {
+    width: 12vw;
+}
+
+.select_cap {
+	margin-top: 3px;
+    background-color: #fff;
+    text-decoration: none;
+    line-height: 10vh;
+    margin-left: 2px;
+    height: 10vh;
+    width: 15%;
+    font-size: 18px;
+    color: #08712b;
+    border: #fff;
+    box-shadow: 0 2px 6px 0 rgba(32, 221, 133, 0.2), 0 4px 20px 0 rgba(32, 221, 57, 0.19);
+    cursor: pointer;
+    margin: 5px;
+}
+
+.select_cap:hover{
+    background-color: rgb(194, 201, 201);
+}
+
+.duocChon{
+    background-color: rgb(70, 139, 148);
+    color: rgb(224, 220, 215);
+}
+
+#khungchonchung {
+    display: block;
+}
+ 
+@media screen and (max-width: 800px) {
+    #khungchonchung {
+        font-size: 13px;
+    }
+    #huyen {
+        width: 13vw;
+    }
+}

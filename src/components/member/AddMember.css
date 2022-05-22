@@ -1,0 +1,28 @@
+.containerr {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+.part {
+  position: relative;
+  background-color: black;
+  width: 50%;
+}
+.alertt{
+  
+    float: left;
+    color: red;
+    font-size: 15px;
+    
+}
+.name{
+
+  margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .tabletadd {
+      display: none;
+  }
+}

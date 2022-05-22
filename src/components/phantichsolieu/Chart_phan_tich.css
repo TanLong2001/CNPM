@@ -1,0 +1,45 @@
+.Chart_phan_tich {
+    float: left;
+    margin: 10px 60px 10px 135px;
+    height: 50vh;
+    width: 50vh;
+}
+.Chart_phan_tich_2 {
+    float: left;
+    margin: 20px 20px 100px 135px;
+    height: 50vh;
+    width: 60vh;
+}
+
+.chart-layout{
+    margin-top: 36px;
+    padding: 32px 0;
+    background-color: rgb(66, 26, 28);
+    display: flex;
+    width: auto;
+    height: 320px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.chart-layout-item{
+    width: 60px;
+    color: rgb(182, 118, 45);
+    background-color: rgb(232, 228, 236);
+    font-weight: 800;
+    height: var(height);
+    text-align: center;
+    animation: growth ease-in 0.5s;
+}
+
+.chart_dan_toc{
+    margin : 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .Chart_phan_tich {
+        margin: 10px 60px 80px 168px;
+    }
+    .Chart_phan_tich_2 {
+        margin: 10px 60px 100px 136px;
+    }
+}

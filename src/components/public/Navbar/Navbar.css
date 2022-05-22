@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+.tieude {
+	display: flex;
+	flex-direction: row;
+	height: 8vh;
+	background-color: #2067dd;
+    width: 100vw;
+
+}
+
+.tieude a:hover {
+	color: rgb(69, 221, 38);
+	cursor: pointer;
+}
+
+.khungphai {
+	font-size: 18px;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 60px;
+	color: white;
+	line-height: 8vh;
+}
+
+.khungphai a{
+	color: white;
+}
+
+.logo_danso {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .khungphai {
+        right: 3vw;
+		font-size: 13px;
+    }
+}

@@ -1,0 +1,46 @@
+
+.active {
+    margin-top: 3px;
+    background-color: #fff;
+    left: 0px;
+    text-decoration: none;
+    line-height: 10vh;
+    margin-left: 0px;
+    height: 10vh;
+    width: 12vw;
+    font-size: 18px;
+    color: #083071;
+    border: #fff;
+    box-shadow: 0 2px 6px 0 rgb(32 103 221 / 20%), 0 4px 20px 0 rgb(32 103 221 / 19%);
+    cursor: pointer;
+}
+
+.khiclick {
+    background-color: black;
+}
+.menu1:hover{
+    background-color: gray;
+}
+
+@media screen and (max-width: 800px) {
+    .active {
+        font-size: 10px;
+    }
+}
+
+.hidechucnang {
+    display: none;
+}
+
+.huy:hover {
+    background-color: gray;
+}
+
+
+.huy:hover{
+    background-color: gray;
+}
+
+#focus{
+    background-color: aqua;
+}

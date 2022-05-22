@@ -1,0 +1,37 @@
+.display {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    height: 78vh;
+}
+
+.khunglamviec {
+    margin-left: 10px;
+    border: 5px solid rgb(35, 115, 219);
+    width: 85vw;
+    overflow: auto;
+    /* background-color: rgb(238, 235, 235); */
+    background-image: url(https://baoxaydung.com.vn/stores/news_dataimages/vananh/032021/30/10/in_article/3213_image001.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: rgba(255, 255, 255, 0.65); 
+    backdrop-filter: blur(8px); 
+    
+}
+.blur {
+   
+    background-size: 100%;
+   
+  }
+
+.fter {
+    margin-top: 1vh;
+}
+
+
+@media screen and (max-width: 800px) {
+    .khunglamviec {
+        width: 86vw;
+    }
+}
